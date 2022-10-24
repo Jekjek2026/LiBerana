@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>DAMAzing</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Jerrold Kyler V. Berana">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="revised" content="28-06-2020">
+  <style>
+    body {
+      text-align: center;
+      background-color: #6CAE75;
+    }
+  </style>
+
+</head>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div>
+    <h2>
+      <img alt="Dama logo" title="Dama" src="image/Dama.png" width="100px" height="100px" />
+      <br>
+    </h2>
+    <h1>
+      DAMAzing
+      <br>
+    </h1>
+
+  </div>
+  <br>
+  <p>
+    <button type="button" onclick="alert('This button would transfer you to the history page')">
+      <h3>History</h3>
+    </button>
+    <button type="button" onclick="window.location.href = 'https://2nd-quarter-proposal.jekjek24.repl.co/'">
+      <h3>Rules</h3>
+    </button>
+    <button type="button" onclick="window.location.href = 'https://4th-progress-commit.jekjek24.repl.co/'">
+      <h3>Notations</h3>
+    </button>
+    <button type="button" onclick="alert('This button would transfer you to the strategies page')">
+      <h3>Strategies</h3>
+    </button>
+    <button type="button" onclick="alert('This button would transfer you to the openings page')">
+      <h3>Openings</h3>
+    </button>
+  </p>
+</body>
+
+</html>
